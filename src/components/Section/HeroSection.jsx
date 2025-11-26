@@ -4,6 +4,7 @@ import { FiGithub, FiLinkedin } from 'react-icons/fi'
 import { useTheme } from '../../context/ThemeContext'
 
 import heroImage from '../../assets/images/heroImage.jpeg'
+import heroImg from '../../assets/images/heroImg.png'
 import { containerVariants, itemVariants } from '../../utils/helper'
 
 const HeroSection = () => {
@@ -107,7 +108,8 @@ const HeroSection = () => {
 										} shadow-2xl`}
 									>
 										<img
-											src={heroImage}
+											// src={heroImage}
+											src={heroImg}
 											alt='Profile'
 											className='w-full h-full object-cover'
 										/>
@@ -447,7 +449,7 @@ const HeroSection = () => {
 										isDarkMode ? 'border-gray-800' : 'border-gray-300'
 									} shadow-2xl`}
 								>
-									<img src={heroImage} alt='Profile' className='w-full h-full object-cover' />
+									<img src={heroImg} alt='Profile' className='w-full h-full object-cover' />
 								</motion.div>
 
 								{/* Decorative elements */}
