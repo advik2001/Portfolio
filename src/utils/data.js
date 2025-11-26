@@ -45,6 +45,7 @@ export const SKILLS_CATEGORY = [
 			{ name: 'Node.js', level: 95, color: 'bg-blue-500' },
 			{ name: 'Express.js', level: 90, color: 'bg-gray-500' },
 			{ name: 'REST APIs', level: 92, color: 'bg-orange-500' },
+			{ name: 'Socket.io', level: 90, color: 'bg-gray-500' },
 			{ name: 'Python', level: 82, color: 'bg-yellow-500' },
 		],
 	},
