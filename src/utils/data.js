@@ -22,6 +22,7 @@ import { SiLeetcode } from "react-icons/si";
 import questly_ai from '../assets/images/questly_ai.png'
 import sortingVisualizer from '../assets/images/sortingVisualizer.png'
 import taskManager from '../assets/images/taskManager.png'
+import genUI from '../assets/images/genUI.png'
 
 export const SKILLS_CATEGORY = [
 	{
@@ -114,6 +115,18 @@ export const PROJECTS = [
 	},
 	{
 		id: 2,
+		title: 'Gen UI',
+		description:
+			'Developed an AI-powered component generator application that leverages the Gemini API to create modern, visually appealing UI components.',
+		image: genUI,
+		tags: ['React', 'Vite', 'Tailwind', 'Gemini'],
+		liveUrl: 'https://gen-ui-tau.vercel.app/',
+		githubUrl: 'https://github.com/advik2001/GenUI',
+		featured: false,
+		category: '',
+	},
+	{
+		id: 3,
 		title: 'Sorting Visualizer',
 		description:
 			'A web app that visually demonstrates various sorting algorithms, making it easier to understand and learn how they work.',
@@ -125,7 +138,7 @@ export const PROJECTS = [
 		category: '',
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Task Manager',
 		description:
 			'A simple and efficient task management web application that allows users to Create, Read, Update, and Delete (CRUD) tasks.',
