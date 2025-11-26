@@ -80,6 +80,7 @@ export const TECH_STACK = [
 	'HTML5',
 	'CSS3',
 	'Sass',
+	'C++',
 	'Webpack',
 	'Vite',
 	'Figma',
@@ -102,7 +103,7 @@ export const PROJECTS = [
 		id: 1,
 		title: 'Questly AI',
 		description:
-			'A full-stack e-commerce solution with advanced filtering, payment integration, and real-time inventory.',
+			'A full-stack AI powered interview preparation app leveraging Google Gemini API to generate role and experience based AI driven technical questions.',
 		image: questly_ai,
 		tags: ['React', 'Tailwind', 'Express', 'Node.js', 'MongoDB'],
 		liveUrl: 'https://questly-ai-eta.vercel.app/',
@@ -114,9 +115,9 @@ export const PROJECTS = [
 		id: 2,
 		title: 'Sorting Visualizer',
 		description:
-			'A full-stack blog app using the MERN stack — with full Markdown support, tag filtering, and an integrated AI post generator.',
+			'A web app that visually demonstrates various sorting algorithms, making it easier to understand and learn how they work.',
 		image: sortingVisualizer,
-		tags: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
+		tags: ['React', 'HTML', 'CSS', 'JavaScript'],
 		liveUrl: 'https://sorting-visualiserr.netlify.app/',
 		githubUrl: 'https://github.com/advik2001/sorting-visualiser',
 		featured: false,
@@ -126,9 +127,9 @@ export const PROJECTS = [
 		id: 3,
 		title: 'Task Manager',
 		description:
-			'A full-stack blog app using the MERN stack — with full Markdown support, tag filtering, and an integrated AI post generator.',
+			'A simple and efficient task management web application that allows users to Create, Read, Update, and Delete (CRUD) tasks.',
 		image: taskManager,
-		tags: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
+		tags: ['React', 'HTML', 'CSS'],
 		liveUrl: 'https://task-manage-crud.netlify.app/',
 		githubUrl: 'https://github.com/advik2001/task-manager',
 		featured: false,
@@ -137,24 +138,51 @@ export const PROJECTS = [
 ]
 
 export const JOURNEY_STEPS = [
+	// {
+	// 	year: '2021',
+	// 	title: 'Started Coding Journey',
+	// 	company: 'Self-taught',
+	// 	description:
+	// 		'Began learning web development with HTML, CSS, and JavaScript. Built my first website and fell in love with coding.',
+	// 	icon: Code2,
+	// 	color: 'bg-blue-500',
+	// },
 	{
-		year: '2021',
-		title: 'Started Coding Journey',
-		company: 'Self-taught',
+		year: '2019 - 2023',
+		title: 'Computer Science Degree',
+		company: 'Manipal University Jaipur',
 		description:
 			'Began learning web development with HTML, CSS, and JavaScript. Built my first website and fell in love with coding.',
-		icon: Code2,
+		icon: GraduationCap,
 		color: 'bg-blue-500',
 	},
 	{
-		year: '2022',
-		title: 'First Internship',
-		company: 'TechStart Inc.',
+		year: '2023',
+		title: 'Software Developer Internship',
+		company: 'PureSoftware',
 		description:
-			'Joined as a frontend intern, working with React and learning modern development practices. Contributed to real client projects.',
+			'Joined as a full stack intern, working with React and learning modern development practices. Contributed to real client projects.',
+		icon: Rocket,
+		color: 'bg-orange-500',
+	},
+	{
+		year: '2024',
+		title: 'Software Engineer Internship',
+		company: 'Jasch Gauging Technologies',
+		description:
+			'Joined as a software intern. Explored new technologies to work with.',
+		icon: Zap,
+		color: 'bg-purple-500',
+	},
+	{
+		year: '2024',
+		title: 'Software Engineer',
+		company: 'Jasch Gauging Technologies',
+		description:
+			'Converted as a full time employee, working with LabView, MongoDB and data acquisition system for industrial sensors.',
 		icon: Briefcase,
 		color: 'bg-green-500',
-	},
+	},	
 ]
 
 export const PASSIONS = [
