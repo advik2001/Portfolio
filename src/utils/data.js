@@ -127,7 +127,7 @@ export const PROJECTS = [
 		title: 'Task Manager',
 		description:
 			'A full-stack blog app using the MERN stack — with full Markdown support, tag filtering, and an integrated AI post generator.',
-		image: sortingVisualizer,
+		image: taskManager,
 		tags: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
 		liveUrl: 'https://task-manage-crud.netlify.app/',
 		githubUrl: 'https://github.com/advik2001/task-manager',
