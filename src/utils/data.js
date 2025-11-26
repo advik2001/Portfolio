@@ -121,7 +121,7 @@ export const PROJECTS = [
 		liveUrl: 'https://sorting-visualiserr.netlify.app/',
 		githubUrl: 'https://github.com/advik2001/sorting-visualiser',
 		featured: false,
-		category: 'Full Stack',
+		category: '',
 	},
 	{
 		id: 3,
@@ -133,7 +133,7 @@ export const PROJECTS = [
 		liveUrl: 'https://task-manage-crud.netlify.app/',
 		githubUrl: 'https://github.com/advik2001/task-manager',
 		featured: false,
-		category: 'Full Stack',
+		category: '',
 	},
 ]
 
