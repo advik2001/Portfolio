@@ -31,10 +31,10 @@ export const SKILLS_CATEGORY = [
 		icon: Code2,
 		description: 'Crafting beautiful, responsive user interfaces',
 		skills: [
+			{ name: 'Next.js', level: 88, color: 'bg-gray-500' },
 			{ name: 'React', level: 95, color: 'bg-blue-500' },
 			{ name: 'JavaScript', level: 90, color: 'bg-gray-500' },
 			// { name: 'TypeScript', level: 90, color: 'bg-blue-500' },
-			// { name: 'Next.js', level: 88, color: 'bg-gray-500' },
 			{ name: 'Tailwind CSS', level: 92, color: 'bg-cyan-500' },
 			{ name: 'Framer Motion', level: 85, color: 'bg-pink-500' },
 		],
@@ -59,7 +59,7 @@ export const SKILLS_CATEGORY = [
 		skills: [
 			{ name: 'MongoDb', level: 88, color: 'bg-green-500' },
 			{ name: 'MySQL', level: 80, color: 'bg-blue-500' },
-			{ name: 'Firebase', level: 80, color: 'bg-red-500' },
+			{ name: 'Supabase', level: 80, color: 'bg-green-500' },
 			// { name: 'Redis', level: 70, color: 'bg-blue-500' },
 			// { name: 'Prisma', level: 75, color: 'bg-yellow-500' },
 		],
@@ -84,6 +84,7 @@ export const TECH_STACK = [
 	'CSS3',
 	'Sass',
 	'C++',
+	'Shadcn UI',
 	'Webpack',
 	'Vite',
 	'Figma',

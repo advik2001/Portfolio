@@ -390,14 +390,14 @@ const HeroSection = () => {
 								{/* Teck Stack - Desktop */}
 								<motion.div
 									variants={itemVariants}
-									className='flex items-center space-x-8 text-xs uppercase tracking-widest absolute -top-16 -left-28'
+									className='flex items-center space-x-8 text-xs tracking-widest absolute -top-16 -left-28'
 								>
 									<span
 										className={`${
 											isDarkMode ? 'text-gray-600' : 'text-gray-500'
 										}`}
 									>
-										React
+										Next.js
 									</span>
 									<span
 										className={`${
@@ -425,7 +425,7 @@ const HeroSection = () => {
 											isDarkMode ? 'text-gray-600' : 'text-gray-500'
 										}`}
 									>
-										Express
+										Express.js
 									</span>
 									<span
 										className={`${

@@ -138,7 +138,8 @@ const SkillsSection = () => {
 													isDarkMode ? 'text-gray-500' : 'text-gray-600'
 												}`}
 											>
-												{skill.level}%
+												{/* Displaying percentage might be redundant, so it's commented out. */}
+												{/* {skill.level}% */} 
 											</span>
 										</div>
 
