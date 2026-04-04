@@ -24,6 +24,7 @@ import sortingVisualizer from '../assets/images/sortingVisualizer.png'
 import taskManager from '../assets/images/taskManager.png'
 import genUI from '../assets/images/genUI.png'
 import dealDrop from '../assets/images/dealDrop.png'
+import splitr from '../assets/images/splitr.png'
 
 export const SKILLS_CATEGORY = [
 	{
@@ -117,6 +118,18 @@ export const PROJECTS = [
 	},
 	{
 		id: 2,
+		title: 'Splitr',
+		description:
+			'A modern expense splitting app with AI features, built using Next.js, Convex, and Clerk.',
+		image: splitr,
+		tags: ['Next.js', 'Convex', 'Prisma', 'Clerk Authentication', 'Inngest', 'Tailwind'],
+		liveUrl: 'https://splitr-five-alpha.vercel.app/',
+		githubUrl: 'https://github.com/advik2001/Splitr',
+		featured: false,
+		category: '',
+	},
+	{
+		id: 3,
 		title: 'Deal Drop',
 		description:
 			'Built a full-stack price tracking SaaS that monitors product prices from any URL, maintains historical price data, and triggers automated email alerts on price drops via scheduled background jobs.',
@@ -128,7 +141,7 @@ export const PROJECTS = [
 		category: '',
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Gen UI',
 		description:
 			'Developed an AI-powered component generator application that leverages the Gemini API to create modern, visually appealing UI components.',
@@ -140,7 +153,7 @@ export const PROJECTS = [
 		category: '',
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Sorting Visualizer',
 		description:
 			'A web app that visually demonstrates various sorting algorithms, making it easier to understand and learn how they work.',
@@ -152,7 +165,7 @@ export const PROJECTS = [
 		category: '',
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Task Manager',
 		description:
 			'A simple and efficient task management web application that allows users to Create, Read, Update, and Delete (CRUD) tasks.',
